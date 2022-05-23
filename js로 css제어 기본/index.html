@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title>nightday</title>
+</head>
+<body>
+	<!-여기서부터 작성>
+	<h2>My name is DongHyeon</h2>
+	<button onclick="black()">night</button> <button onclick="white()">day</button>
+</body>
+<script>
+	const background = document.querySelector("body")
+	function black() {
+		background.style.backgroundColor="black"
+		background.style.color="white"
+	}
+		function white() {
+		background.style.backgroundColor="white"
+		background.style.color="black"
+	}
+</script>
